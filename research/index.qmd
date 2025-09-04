@@ -58,7 +58,7 @@ Experimental work showing how biological systems perform real-time probabilistic
 ## Visualization-Driven Inference Development
 
 **Studio** — Visualization-driven development and debugging of inference
-[GitHub ➔](https://github.com/frogrocketlabs/genstudio)
+[GitHub ➔](https://github.com/perceptual-ai/genstudio)
 
 Studio supports modular visualization of probabilistic program traces and interactive debugging of probabilistic inference programs. Makes visual exploration and debugging convenient and fast.
 
@@ -100,9 +100,9 @@ Built an interactive model where a probabilistic program tracks a moving target 
 # Code
 
 - **Bayes3D**: Probabilistic 3D scene perception library. [GitHub ➔](https://github.com/probcomp/b3d/graphs/contributors)
-- **GenJAX**: Inference engineering with parallel probabilistic programs. [GitHub ➔](https://github.com/genjax-dev/genjax)
+- **GenJAX**: Inference engineering with parallel probabilistic programs. [GitHub ➔](https://github.com/genjax-community/genjax)
 - **GenJAX-VI**: Programmable variational inference. [Talk ➔](https://www.youtube.com/watch?v=WOFW9cHAZrc&t=1074s) [GitHub ➔](https://github.com/genjax-dev/programmable-vi-pldi-2024)
-- **Studio**: Visualize, interact, and debug probabilistic programs. [GitHub ➔](https://github.com/frogrocketlabs/genstudio)
+- **Studio**: Visualize, interact, and debug probabilistic programs. [GitHub ➔](https://github.com/perceptual-ai/genstudio)
 - **Emmy**: Interactive, high-performance computer algebra in Clojure(Script). [GitHub ➔](https://github.com/mentat-collective/emmy)
 - **Cascalog**: Distributed data processing on Hadoop using Clojure. [GitHub ➔](https://github.com/nathanmarz/cascalog)
 - **Scalding**: Scalable data pipelines on Hadoop and later Twitter's internal platforms. [GitHub ➔](https://github.com/twitter/scalding)

@@ -61,7 +61,7 @@ The techniques we're using are in the same family as the "inference-time compute
 
 # Focused on Users
 
-We'd love to speak with you more to understand your challenges and see if an early partnership makes sense. If you're working in any of the following areas, send us a note at **[hello@frogrocket.ai](mailto:hello@frogrocket.ai)**.
+We'd love to speak with you more to understand your challenges and see if an early partnership makes sense. If you're working in any of the following areas, send us a note at **[hello@perceptual.ai](mailto:hello@perceptual.ai)**.
 
 - **Robotics** for manufacturing, logistics, and inspection
 - **Field systems** for agriculture, exploration, and disaster recovery

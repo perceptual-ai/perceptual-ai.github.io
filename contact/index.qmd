@@ -1,7 +1,7 @@
 <div style="width: 100%; margin-bottom: 2rem; text-align: center;">
-  We’d love to hear from you — say [hello@frogrocket.ai](mailto:hello@frogrocket.ai).
+  We’d love to hear from you — say [hello@perceptual.ai](mailto:hello@perceptual.ai).
 </div>
 
 <div style="text-align: center;">
-  <img src="../assets/frogrocket-logo.png" class="frogrocket-logo" style="width: 100%; height: auto; max-width: 400px; border-radius: 8px; opacity: 0.8;">
+  <img src="../assets/frogrocket-logo.png" class="perceptual-logo" style="width: 100%; height: auto; max-width: 400px; border-radius: 8px; opacity: 0.8;">
 </div>

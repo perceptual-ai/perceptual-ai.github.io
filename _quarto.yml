@@ -5,10 +5,10 @@ project:
     - robots.txt
 
 website:
-  title: "FrogRocket Labs"
+  title: "Perceptual"
   navbar:
     brand:
-      text: "FrogRocket Labs"
+      text: "Perceptual"
       href: index.qmd
     left:
       - text: "What"
@@ -24,9 +24,9 @@ website:
     left: "© 2025, FrogRocket Labs, Inc."
     right:
       - icon: github
-        href: https://github.com/frogrocketlabs
+        href: https://github.com/perceptual-ai
       - icon: envelope-paper-heart-fill
-        href: mailto:hello@frogrocket.ai
+        href: mailto:hello@perceptual.ai
 
 format:
   html:
