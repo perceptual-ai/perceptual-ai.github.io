@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Perceptual"
+  navbar:
+    search: false
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: "#team"
+        text: Team
+      - href: "#values"
+        text: Values
+
+format:
+  html:
+    theme:
+      - darkly
+      - custom.scss
+    css: styles.css
+    toc: false
+    page-layout: article
+    include-before-body: announcement.html
+    grid:
+      body-width: 1400px
+      margin-width: 250px
+
+
+

@@ -1,0 +1,18 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+::: {.hero}
+# We're building the perception platform for robotics.
+:::
+
+::: {.section #mission}
+## Ethos
+:::
+
+::: {.section #team}
+## Meet Our Team
+:::

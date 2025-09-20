@@ -1,0 +1,317 @@
+/*-- scss:defaults --*/
+
+// Color palette inspired by Warp.dev
+$primary: #faf9f6;
+$secondary: #8b8680;
+$success: #4ade80;
+$info: #60a5fa;
+$warning: #fbbf24;
+$danger: #f87171;
+$light: #faf9f6;
+$dark: #121212;
+
+// Background colors
+$body-bg: #121212;
+$body-color: #faf9f6;
+$link-color: #60a5fa;
+$link-hover-color: #93bbfc;
+
+// Typography - matching Warp's clean style
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-weight: 400;
+$headings-color: #faf9f6;
+$font-size-base: 1.125rem;
+
+// Navbar
+$navbar-dark-color: rgba(255, 255, 255, 0.85);
+$navbar-dark-hover-color: rgba(255, 255, 255, 1);
+$navbar-dark-bg: rgba(18, 18, 18, 0.95);
+$navbar-padding-y: 1rem;
+
+// Cards
+$card-bg: rgba(255, 255, 255, 0.05);
+$card-border-color: rgba(255, 255, 255, 0.1);
+
+/*-- scss:rules --*/
+
+// Global styles
+body {
+  background: #121212;
+  min-height: 100vh;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  letter-spacing: 0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Top bar above navbar (like Warp)
+.top-announcement-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #faf9f6;
+  color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+
+  a {
+    color: #121212;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
+// Navbar styling
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  margin-top: 40px; // Account for top bar
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  min-height: 60px;
+
+  .navbar-nav .nav-link {
+    font-weight: 400;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+
+    &:hover {
+      color: $link-hover-color !important;
+    }
+  }
+}
+
+// Hero section
+.hero {
+  padding: 8rem 2rem;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 2rem;
+    color: #faf9f6;
+    letter-spacing: -0.025em;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 768px) {
+      font-size: 4rem;
+      line-height: 1.1;
+      padding: 0 3rem;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 5.5rem;
+      line-height: 1.1;
+      padding: 0 4rem;
+    }
+
+    @media (min-width: 1600px) {
+      font-size: 6rem;
+      line-height: 1.1;
+    }
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    color: $secondary;
+    max-width: 900px;
+    margin: 0 auto;
+    letter-spacing: 0.005em;
+  }
+}
+
+// Section styling
+.section {
+  padding: 5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #faf9f6;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 4rem;
+    }
+  }
+}
+
+// Grid layouts - simplified and less constraining
+.grid-container {
+  display: grid;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  &.grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  &.grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+// Cards
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #faf9f6;
+  }
+
+  p {
+    color: #8b8680;
+    line-height: 1.6;
+  }
+}
+
+// Team member cards
+.team-member {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-4px);
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    background: linear-gradient(135deg, #60a5fa 0%, #4ade80 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .role {
+    color: #8b8680;
+    font-size: 1rem;
+  }
+}
+
+// Value cards
+.value-card {
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba(96, 165, 250, 0.3);
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 0;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+    }
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Utility classes removed gradient
+
+.blur-bg {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(18, 18, 18, 0.8);
+}
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Selection color
+::selection {
+  background: rgba(96, 165, 250, 0.3);
+  color: #faf9f6;
+}
+
+::-moz-selection {
+  background: rgba(96, 165, 250, 0.3);
+  color: #faf9f6;
+}
