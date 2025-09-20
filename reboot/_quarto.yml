@@ -4,16 +4,17 @@ project:
 website:
   title: "Perceptual"
   # navbar:
+  #   logo: assets/logo-dark.png
+  #   background: "#000000"
+  #   brand: true
   #   search: false
   #   left:
-  #     # - href: index.qmd
-  #     #   text: Home
   #     - href: about.qmd
-  #       text: about
+  #       text: About
   #     - href: about.qmd
-  #       text: jobs
+  #       text: Components
   #     - href: about.qmd
-  #       text: who
+  #       text: Jobs
 format:
   html:
     theme:

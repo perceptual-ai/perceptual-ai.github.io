@@ -14,6 +14,7 @@ $font-weight-base: 300 !default;  // Roboto Light
 // Apply Roboto Light to body
 body {
   font-weight: 300;
+  background-color: #000000;
 }
 
 // Add spacing to main content area
@@ -22,9 +23,18 @@ body {
   padding-bottom: 3rem;
 }
 
-// Improve section spacing
+// Center main content using grid
 main {
   margin-top: 2rem;
+  max-width: 1000px !important;  // Match grid body-width
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Ensure content column is centered
+.content {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
 }
 
 // Align navbar container with body content
@@ -39,12 +49,15 @@ main {
 .navbar-brand {
   font-family: 'Comfortaa', cursive !important;
   font-weight: 600 !important;
-  color: black !important;
+  color: white !important;  // Changed to white for black navbar
 }
 
-// Style the navbar logo
-.navbar-logo {
-  height: 100px !important;  // Adjust height as needed
+// Style the navbar logo with more specific selectors
+.navbar-logo,
+.navbar-brand img,
+.navbar .navbar-brand .navbar-logo {
+  height: 200px !important;  // Adjust height as needed
+  max-height: 200px !important;
   width: auto !important;    // Maintain aspect ratio
   margin-right: 2px !important;  // Space between logo and text
 }
@@ -59,12 +72,104 @@ main {
 .comfortaa {
   font-family: 'Comfortaa', cursive !important;
   font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+// Comfortaa with hero spacing
+.comfortaa-hero {
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 600 !important;
+  font-size: 1.8rem !important;
+  padding-top: 1em !important;
+  padding-bottom: 1rem !important;
+  color: #ffffff !important;  // White color
+  opacity: 0.6 !important;  // Slightly transparent
+  }
+
+// Style for hero logo
+.hero-logo {
+  height: 50px !important;
+  width: auto !important;
+  display: block;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Hero navigation links
+.hero-nav {
+  margin-top: 2rem !important;
+
+  a {
+    font-family: 'Comfortaa', sans-serif !important;
+    font-weight: 400 !important;  // Regular weight
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+    margin: 0 1rem !important;
+    color: #ffffff !important;
+    opacity: 0.5;
+    transition: opacity 0.3s ease !important;
+
+    &:first-child {
+      margin-left: 0 !important;
+    }
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}
+
+// Animated gradient text
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    rgba(147, 51, 234, 1) 0%,
+    rgba(103, 90, 240, 1) 8.33%,
+    rgba(59, 130, 246, 1) 16.66%,
+    rgba(46, 163, 170, 1) 25%,
+    rgba(51, 139, 24, 1) 33.33%,
+    rgba(90, 124, 164, 1) 41.66%,
+    rgba(147, 51, 234, 1) 50%,
+    rgba(103, 90, 240, 1) 58.33%,
+    rgba(59, 130, 246, 1) 66.66%,
+    rgb(51, 139, 24) 75%,
+    rgba(46, 163, 170, 1) 83.33%,
+    rgba(90, 124, 164, 1) 91.66%,
+    rgba(147, 51, 234, 1) 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientWave 30s linear infinite, opacityPulse 6s ease-in-out infinite;
+}
+
+@keyframes gradientWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: -200% 50%;
+  }
+}
+
+@keyframes opacityPulse {
+  0%, 100% {
+    opacity: 0.70;
+  }
+  50% {
+    opacity: .80;
+  }
 }
 
 // Hero section styling (Tailscale-inspired)
 .hero-section {
   text-align: left;  // Changed from center to left
-  padding: 6rem 2rem;
+  padding: 6rem 0;  // Remove horizontal padding since grid handles centering
   margin-top: 2rem;
 
   h1 {
@@ -73,7 +178,7 @@ main {
     line-height: 1.2 !important;
     max-width: 900px;
     margin: 0 !important;  // Removed auto to prevent centering
-    color: #111 !important;
+    color: #ffffff !important;  // White text on black background
 
     @media (max-width: 768px) {
       font-size: 2.5rem !important;
@@ -86,21 +191,21 @@ main {
   display: none;
 }
 
-// Style navigation links like Tailscale (grey on white navbar)
+// Style navigation links like Tailscale (grey on black navbar)
 .navbar-nav {
   .nav-link {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
     font-weight: 500 !important;
-    font-size: 0.95rem !important;
-    color: #6b7280 !important;  // Grey color like Tailscale
+    font-size: 0.85rem !important;  // Smaller font size
+    color: #9ca3af !important;  // Lighter grey for black background
     transition: color 0.15s ease-in-out !important;
 
     &:hover {
-      color: #111827 !important;  // Darker on hover
+      color: #ffffff !important;  // White on hover
     }
 
     &.active {
-      color: #111827 !important;  // Darker for active page
+      color: #ffffff !important;  // White for active page
     }
   }
 }
@@ -137,18 +242,18 @@ main {
 }
 
 #circle1 {
-  background-color: rgba(235, 223, 135, 0.6);  // Yellow like example
-  animation: orbit 6s linear infinite;
+  background-color: rgba(147, 51, 234, 0.3);  // Purple for dark mode
+  animation: orbit 10s linear infinite;
 }
 
 #circle2 {
-  background-color: rgba(0, 200, 255, 0.6);  // Cyan like example
-  animation: rorbit 10s linear infinite;
+  background-color: rgba(59, 130, 246, 0.3);  // Blue for dark mode
+  animation: rorbit 14s linear infinite;
 }
 
 #circle3 {
-  background-color: rgba(254, 182, 255, 0.6);  // Pink like example
-  animation: rorbit 8s linear infinite;
+  background-color: rgba(34, 197, 94, 0.3);  // Green for dark mode
+  animation: rorbit 12s linear infinite;
 }
 
 // Orbital animation (clockwise)
@@ -175,24 +280,18 @@ main {
 @media (prefers-color-scheme: dark) {
   .circle {
     mix-blend-mode: screen;
-    opacity: 0.7;
+    opacity: 0.4;
   }
 
   #circle1 {
-    background: radial-gradient(circle,
-      rgba(147, 51, 234, 0.3) 0%,
-      rgba(147, 51, 234, 0) 70%);
+    background-color: rgba(147, 51, 234, 0.3);  // Purple
   }
 
   #circle2 {
-    background: radial-gradient(circle,
-      rgba(236, 72, 153, 0.3) 0%,
-      rgba(236, 72, 153, 0) 70%);
+    background-color: rgba(59, 130, 246, 0.3);  // Blue
   }
 
   #circle3 {
-    background: radial-gradient(circle,
-      rgba(59, 130, 246, 0.3) 0%,
-      rgba(59, 130, 246, 0) 70%);
+    background-color: rgba(34, 197, 94, 0.3);  // Green
   }
 }

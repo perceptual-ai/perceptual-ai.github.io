@@ -9,5 +9,16 @@ title: ""
 </div>
 
 ::: {.hero-section}
+<p class="comfortaa-hero">Perceptual</p>
+
 # We're building the<br>next-gen perception system<br>for AI robotics.
+
+<div class="hero-nav">
+  <a href="/about">About</a>
+  |
+  <a href="/components">Components</a>
+  |
+  <a href="/jobs">Jobs</a>
+</div>
 :::
+
