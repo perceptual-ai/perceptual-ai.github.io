@@ -5,14 +5,15 @@ website:
   title: "Perceptual"
   navbar:
     search: false
+    logo: assets/logo-dark.png
     background: dark
     left:
-      - href: index.qmd
-        text: Home
       - href: "#team"
-        text: Team
+        text: Join
       - href: "#values"
-        text: Values
+        text: Platform
+      - href: about.qmd
+        text: Investors
 
 format:
   html:

@@ -1,5 +1,8 @@
 /*-- scss:defaults --*/
 
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 // Color palette inspired by Warp.dev
 $primary: #faf9f6;
 $secondary: #8b8680;
@@ -84,7 +87,14 @@ body {
   padding-bottom: 1rem !important;
   min-height: 60px;
 
+  // Navbar brand/title with Comfortaa
+  .navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+  }
+
   .navbar-nav .nav-link {
+    font-family: 'Comfortaa', cursive;
     font-weight: 400;
     padding: 0.5rem 1.5rem;
     transition: all 0.2s ease;
