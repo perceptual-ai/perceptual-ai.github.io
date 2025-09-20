@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Perceptual"
+  # navbar:
+  #   search: false
+  #   left:
+  #     # - href: index.qmd
+  #     #   text: Home
+  #     - href: about.qmd
+  #       text: about
+  #     - href: about.qmd
+  #       text: jobs
+  #     - href: about.qmd
+  #       text: who
+format:
+  html:
+    theme:
+      - litera
+      - brand
+      - custom-theme.scss
+    toc: true
+    grid:
+      body-width: 1000px
+      margin-width: 250px
+
+
+
