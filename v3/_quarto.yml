@@ -13,7 +13,7 @@ website:
       - href: "#values"
         text: Platform
       - href: about.qmd
-        text: Investors
+        text: Team
 
 format:
   html:

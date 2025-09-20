@@ -5,14 +5,20 @@ format:
     toc: false
 ---
 
+<div class="circle-container">
+  <div class="circle" id="circle1"></div>
+  <div class="circle" id="circle2"></div>
+  <div class="circle" id="circle3"></div>
+</div>
+
 ::: {.hero}
 # We're building the perception platform for robotics.
 :::
-
+<!-- 
 ::: {.section #mission}
 ## Ethos
 :::
 
 ::: {.section #team}
 ## Meet Our Team
-:::
+::: -->

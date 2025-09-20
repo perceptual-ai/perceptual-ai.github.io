@@ -46,6 +46,52 @@ main {
   font-weight: 500;
   color: #faf9f6;
   letter-spacing: -0.01em;
+  opacity: 1 !important;
+}
+
+.navbar-brand:hover {
+  color: #faf9f6 !important; /* Prevent color change on hover */
+}
+
+/* Navbar logo - full opacity, no hover effects */
+.navbar .navbar-logo,
+.navbar .navbar-brand img,
+.navbar img.navbar-logo,
+#quarto-header .navbar-logo,
+#quarto-header .navbar-brand img,
+.navbar-brand .navbar-logo,
+a.navbar-brand img {
+  height: 100px !important;
+  opacity: 1 !important;
+}
+
+/* Override any parent opacity that might affect the logo */
+.navbar-brand:has(img) {
+  opacity: 1 !important;
+}
+
+/* Ensure logo doesn't inherit opacity from parent on hover */
+.navbar-brand:hover img,
+.navbar-brand:hover .navbar-logo {
+  opacity: 1 !important;
+}
+
+/* Navbar nav links opacity */
+.navbar .navbar-nav .nav-link {
+  opacity: 0.5 !important;
+  transition: opacity 0.2s ease !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  opacity: 1 !important;
+  color: inherit !important; /* Prevent color change on hover */
+}
+
+/* Prevent color change for visited/active nav links */
+.navbar .navbar-nav .nav-link:visited,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus {
+  color: inherit !important;
 }
 
 /* Mobile menu improvements */
