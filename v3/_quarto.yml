@@ -8,11 +8,11 @@ website:
     logo: assets/logo-dark.png
     background: dark
     left:
-      - href: "#team"
+      - href: "#join"
         text: Join
-      - href: "#values"
+      - href: "#platform"
         text: Platform
-      - href: about.qmd
+      - href: "#team"
         text: Team
 
 format:

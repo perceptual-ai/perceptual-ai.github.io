@@ -158,13 +158,11 @@ body {
     @media (min-width: 768px) {
       font-size: 4rem;
       line-height: 1.1;
-      padding: 0 3rem;
     }
 
     @media (min-width: 1200px) {
       font-size: 5.5rem;
       line-height: 1.1;
-      padding: 0 4rem;
     }
 
     @media (min-width: 1600px) {
@@ -201,6 +199,48 @@ body {
 
     @media (min-width: 1200px) {
       font-size: 4rem;
+    }
+  }
+}
+
+// Ethos section - Warp-inspired minimal narrative style
+.ethos-section {
+  padding: 1rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+    
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    color: #faf9f6;
+    letter-spacing: -0.02em;
+    opacity: 0.9;
+
+    @media (min-width: 768px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  // Inner content container for controlling text width
+  .ethos-content {
+    max-width: 900px; // Easily adjustable text width
+    margin: 0 auto;
+    padding: 0 1rem; // Small padding for mobile
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.8;
+    color: rgba(250, 249, 246, 0.5);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.01em;
+
+    @media (min-width: 768px) {
+      font-size: 1.25rem;
+      line-height: 1.9;
     }
   }
 }

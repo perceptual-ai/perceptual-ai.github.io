@@ -14,11 +14,9 @@ format:
 ::: {.hero}
 # We're building the perception platform for robotics.
 :::
-<!-- 
-::: {.section #mission}
-## Ethos
-:::
 
-::: {.section #team}
-## Meet Our Team
-::: -->
+::: {.ethos-section}
+
+::: {.ethos-content}
+We started at MIT, uncovering how humans perceive the world. We pioneered GPU-powered algorithms that rival state-of-the-art vision models, and then discovered mechanisms of nueral computation. In a parallel universe, early Stripe engineers were honing a culture of obsessive focus on user experience, AI infra, and scalable platforms. Now we’ve brought those worlds together into Perceptual, the next-gen perception platform for robotics.
+:::

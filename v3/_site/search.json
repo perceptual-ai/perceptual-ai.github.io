@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for robotics."
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for robotics.\n\n\n\nWe started at MIT, uncovering how humans perceive the world. We pioneered GPU-powered algorithms that rival state-of-the-art vision models, and then discovered mechanisms of nueral computation. In a parallel universe, early Stripe engineers were honing a culture of obsessive focus on user experience, AI infra, and scalable platforms. Now we’ve brought those worlds together into Perceptual, the next-gen perception platform for robotics."
   },
   {
     "objectID": "index.html#ethos",
@@ -47,5 +47,26 @@
     "title": "Home",
     "section": "Meet Our Team",
     "text": "Meet Our Team"
+  },
+  {
+    "objectID": "index.html#our-ethos",
+    "href": "index.html#our-ethos",
+    "title": "Home",
+    "section": "Our Ethos",
+    "text": "Our Ethos\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
+  },
+  {
+    "objectID": "index.html#lore",
+    "href": "index.html#lore",
+    "title": "Home",
+    "section": "Lore",
+    "text": "Lore\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
+  },
+  {
+    "objectID": "index.html#who",
+    "href": "index.html#who",
+    "title": "Home",
+    "section": "Who",
+    "text": "Who\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
   }
 ]

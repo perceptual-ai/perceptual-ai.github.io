@@ -11,7 +11,7 @@ PIXI_PROJECT_ROOT = "."
 
 [dependencies]
 website = { path = "." }
-quarto = ">=1.7.31,<2"
+quarto = "*"
 
 [tasks]
 render = { cmd = "quarto render" }
