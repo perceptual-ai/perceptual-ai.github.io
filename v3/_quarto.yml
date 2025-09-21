@@ -23,7 +23,6 @@ format:
     css: styles.css
     toc: false
     page-layout: article
-    include-before-body: announcement.html
     grid:
       body-width: 1400px
       margin-width: 250px
