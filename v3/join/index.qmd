@@ -1,0 +1,22 @@
+---
+title: "Join"
+format:
+  html:
+    toc: false
+---
+
+<div class="circle-container">
+  <div class="circle" id="circle1"></div>
+  <div class="circle" id="circle2"></div>
+  <div class="circle" id="circle3"></div>
+</div>
+
+::: {.hero}
+# Join us!
+:::
+
+::: {.ethos-section}
+
+::: {.ethos-content}
+Help us build the core vision and sensor fusion capabilities that enable machines to perceive the world in real time. We design, implement, and optimize perception algorithms that ensure robust operation across diverse environments and conditions. We’re looking for people who thrive at the intersection of computer vision, robotics, and systems engineering—engineers who can balance algorithmic depth with practical deployment on constrained hardware. Email <a href="mailto:jobs@perceptual.ai">jobs@perceptual.ai</a> if you're interested!
+:::

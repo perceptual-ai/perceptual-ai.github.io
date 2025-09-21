@@ -18,5 +18,13 @@ format:
 ::: {.ethos-section}
 
 ::: {.ethos-content}
-At MIT we studied how humans perceive the world, developed nueral computation code, and pioneered GPU-powered algorithms. At Stripe we focused on user experience, built AI infrastructure, and scaled developer platforms globally. Perceptual is a company that brings these teams together. We're building the perception plaform for automation, for developers.
+Perception capabilities are often complex and brittle; our platform helps make them plug-and-play. Our SDKs fuse LiDAR, IMU, GNSS, and camera data alongside GPU-accelerated processing, calibration, and analytics. We focus on developer experience as much as core capability so that developers can deliver perception without reinventing the stack. 
+
+Spun out of MIT and Stripe, we bring together cutting-edge research with a deep understanding of developer-first platforms. Our aim is not just to push perception metrics, but to translate them into product features that help developers solve real-world problems—making perception an accessible and dependable layer for every application.
+
+<!-- We focus on developer experience as much as core capability. The platform provides SDKs and tooling that make perception plug-and-play, with built-in support for fusing LiDAR, IMU, GNSS, and camera data. GPU-accelerated point cloud and map processing, along with calibration and analytics capabilities, ensure performance at scale without added complexity.
+
+We specialize in robust perception for the unstructured environments that typically break SLAM. Our work includes developing visual features that hold up under scale, rotation, and affine variations; incorporating optical flow to improve tracking in low-texture scenes and avoid treating moving objects as landmarks; and building semantic maps that distinguish between static and dynamic elements. We are also extending ground models to work seamlessly with LiDAR, strengthening shadow detection and terrain understanding.
+
+Spun out of MIT and Stripe, we bring together cutting-edge research with a deep understanding of developer-first platforms. Our goal is to make perception an accessible layer for all developers, not just robotics specialists. -->
 :::

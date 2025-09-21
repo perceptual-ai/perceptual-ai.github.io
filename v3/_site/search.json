@@ -4,6 +4,27 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for developers.\n\n\n\nAt MIT we studied how humans perceive the world, developed nueral computation code, and pioneered GPU-powered algorithms. At Stripe we focused on user experience, built AI infrastructure, and scaled developer platforms globally. Perceptual is a company that brings these teams together. We’re building the perception plaform for automation, for developers."
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for developers.\n\n\n\nPerception capabilities are often complex and brittle; our platform helps make them plug-and-play. Our SDKs fuse LiDAR, IMU, GNSS, and camera data alongside GPU-accelerated processing, calibration, and analytics. We focus on developer experience as much as core capability so that developers can deliver perception without reinventing the stack.\nSpun out of MIT and Stripe, we bring together cutting-edge research with a deep understanding of developer-first platforms. Our aim is not just to push perception metrics, but to translate them into product features that help developers solve real-world problems—making perception an accessible and dependable layer for every application."
+  },
+  {
+    "objectID": "join/index.html",
+    "href": "join/index.html",
+    "title": "Join",
+    "section": "",
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoin us!\n\n\n\nJoin the team responsible for building the core vision and sensor fusion capabilities that enable hardware to perceive the world in real time. We design, implement, and optimize perception algorithms that ensure robust operation across diverse environments and conditions.\nAs a Research Engineer, you will develop and deploy state-of-the-art perception systems for real-time, closed-loop control. You’ll own the full stack from sensor ingest and calibration to on-device optimization and clean system interfaces, collaborating closely with camera, systems, and controls teams to ship features that perform reliably in the wild.\nWe’re looking for people who thrive at the intersection of computer vision, robotics, and systems engineering—engineers who can balance algorithmic depth with practical deployment on constrained hardware."
+  },
+  {
+    "objectID": "team/index.html",
+    "href": "team/index.html",
+    "title": "Team",
+    "section": "",
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpun out of MIT and Stripe\n\n\n\nWe bring together cutting-edge research with a deep understanding of developer-first platforms. Our aim is not just to push perception metrics, but to translate them into product features that help developers solve real-world problems—making perception an accessible and dependable layer for every application."
+  },
+  {
+    "objectID": "platform/index.html",
+    "href": "platform/index.html",
+    "title": "Platform",
+    "section": "",
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced perception for unpredictable environments\n\n\n\nBuilding with perception today is often complex and brittle; our platform makes it plug-and-play. With SDKs and tooling that fuse LiDAR, IMU, GNSS, and camera data—plus GPU-accelerated processing, calibration, and analytics—developers can deliver reliable performance without reinventing the stack. We focus on developer experience as much as core capability."
   }
 ]

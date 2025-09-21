@@ -1,0 +1,22 @@
+---
+title: "Team"
+format:
+  html:
+    toc: false
+---
+
+<div class="circle-container">
+  <div class="circle" id="circle1"></div>
+  <div class="circle" id="circle2"></div>
+  <div class="circle" id="circle3"></div>
+</div>
+
+::: {.hero}
+# Spun out of MIT and Stripe
+:::
+
+::: {.ethos-section}
+
+::: {.ethos-content}
+We bring together cutting-edge research with a deep understanding of developer-first platforms. Our aim is not just to push perception metrics, but to translate them into product features that help developers solve real-world problems—making perception an accessible and dependable layer for every application.
+:::
