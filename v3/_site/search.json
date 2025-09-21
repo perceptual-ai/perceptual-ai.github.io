@@ -1,72 +1,9 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More"
-  },
-  {
-    "objectID": "about.html#our-mission",
-    "href": "about.html#our-mission",
-    "title": "About",
-    "section": "Our Mission",
-    "text": "Our Mission\n\n\n\nInnovation First\nWe believe in pushing the boundaries of what’s possible with AI and developer tools. Our platform enables creators to build applications that think, learn, and adapt.\n\n\nDeveloper Experience\nGreat tools should feel invisible. We obsess over every detail of the developer experience, from intuitive APIs to comprehensive documentation.\n\n\nOpen Collaboration\nThe best ideas come from diverse perspectives. We’re building a community where developers can share, learn, and create together.\n\n\nEthical AI\nWith great power comes great responsibility. We’re committed to building AI systems that are transparent, fair, and beneficial to all."
-  },
-  {
-    "objectID": "about.html#our-values",
-    "href": "about.html#our-values",
-    "title": "About",
-    "section": "Our Values",
-    "text": "Our Values\n\n\n\n\n🚀\n\n\nSpeed\nMove fast and iterate. We ship early and often, learning from real-world usage.\n\n\n\n\n🎯\n\n\nFocus\nDo fewer things better. We concentrate on what matters most to developers.\n\n\n\n\n✨\n\n\nQuality\nExcellence in every line of code. We don’t compromise on the fundamentals.\n\n\n\n\n🤝\n\n\nTrust\nBe reliable and transparent. We earn trust through consistent delivery.\n\n\n\n\n🌍\n\n\nImpact\nMake a difference. We measure success by the value we create for developers.\n\n\n\n\n🎨\n\n\nCreativity\nThink differently. We encourage unconventional approaches to solving problems."
-  },
-  {
-    "objectID": "about.html#meet-our-team",
-    "href": "about.html#meet-our-team",
-    "title": "About",
-    "section": "Meet Our Team",
-    "text": "Meet Our Team\n\n\n\n\nJD\n\n\nJane Doe\n\nCEO & Co-founder\n\n\n\n\n\nAS\n\n\nAlex Smith\n\nCTO & Co-founder\n\n\n\n\n\nMJ\n\n\nMaria Johnson\n\nHead of Engineering\n\n\n\n\n\nRC\n\n\nRobert Chen\n\nHead of Product\n\n\n\n\n\nSK\n\n\nSarah Kim\n\nHead of Design\n\n\n\n\n\nDP\n\n\nDavid Park\n\nHead of AI Research"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for robotics.\n\n\n\nWe started at MIT, uncovering how humans perceive the world. We pioneered GPU-powered algorithms that rival state-of-the-art vision models, and then discovered mechanisms of nueral computation. In a parallel universe, early Stripe engineers were honing a culture of obsessive focus on user experience, AI infra, and scalable platforms. Now we’ve brought those worlds together into Perceptual, the next-gen perception platform for robotics."
-  },
-  {
-    "objectID": "index.html#ethos",
-    "href": "index.html#ethos",
-    "title": "Home",
-    "section": "Ethos",
-    "text": "Ethos"
-  },
-  {
-    "objectID": "index.html#meet-our-team",
-    "href": "index.html#meet-our-team",
-    "title": "Home",
-    "section": "Meet Our Team",
-    "text": "Meet Our Team"
-  },
-  {
-    "objectID": "index.html#our-ethos",
-    "href": "index.html#our-ethos",
-    "title": "Home",
-    "section": "Our Ethos",
-    "text": "Our Ethos\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
-  },
-  {
-    "objectID": "index.html#lore",
-    "href": "index.html#lore",
-    "title": "Home",
-    "section": "Lore",
-    "text": "Lore\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
-  },
-  {
-    "objectID": "index.html#who",
-    "href": "index.html#who",
-    "title": "Home",
-    "section": "Who",
-    "text": "Who\n\nWe began with a vision to reimagine perception for autonomous systems. In a world where robots and AI agents are becoming increasingly sophisticated, we believe the fundamental challenge isn’t just processing power or algorithms—it’s understanding the world the way humans do.\nOur platform bridges the gap between raw sensor data and meaningful action. We’re building technology that doesn’t just see, but comprehends; that doesn’t just detect, but understands context and intent.\nWe envision a future where autonomous systems work seamlessly alongside humans, where robots can navigate complex environments with intuition and grace, and where the barrier between digital perception and human understanding dissolves. This isn’t about replacing human judgment—it’s about amplifying it, creating systems that extend our capabilities and free us to focus on what matters most: creativity, strategy, and human connection.\nAt Perceptual, we’re not just building better computer vision. We’re crafting the sensory foundation for the next generation of intelligent machines."
+    "text": "We're converging on San Francisco for Actuate 2025, see you there!Learn More\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe’re building the perception platform for automation.\n\n\n\nAt MIT in Cambridge we studied how humans perceive the world, then pioneered GPU-powered algorithms that rivaled state-of-the-art vision models. Next, we discovering nueral computation. Meanwhile at Stripe in San Francisco, engineers honed a renewed focus on user experience, AI infrastructure, and globally scalable developer platforms. Today, Perceptual is a linear combination of these worlds, unlocking automation at scale."
   }
 ]
