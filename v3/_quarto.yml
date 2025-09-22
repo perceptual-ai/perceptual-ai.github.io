@@ -5,7 +5,7 @@ website:
   title: "Perceptual"
   navbar:
     search: false
-    logo: assets/logo-dark.png
+    # logo: assets/logo-dark.png
     background: dark
     left:
       - href: "join/index.qmd"
