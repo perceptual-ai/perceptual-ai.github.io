@@ -6,7 +6,7 @@ format:
 ---
 
 ::: {.hero}
-# We're building the perception platform for developers.
+# We're building the perception platform for automation.
 :::
 
 ::: {.ethos-section}
