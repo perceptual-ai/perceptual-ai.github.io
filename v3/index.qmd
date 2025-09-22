@@ -45,3 +45,9 @@ format:
   </svg>
 </div>
 ```
+
+::: {.ethos-content}
+Our mission is to accelerate the deployment of machines that can perceive, reason, and safely interact with the complexities of the physical world.
+Building robust perception systems is one of the hardest problems in robotics. Teams often spend years creating brittle, one-off solutions that are difficult to maintain and extend.
+We're making this simpler. Our modular AI components and developer platform let companies build, integrate, and control physical AI without starting from scratch.
+:::
