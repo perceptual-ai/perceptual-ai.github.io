@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "We’re building the perception platform for automation."
-  },
-  {
-    "objectID": "join/index.html",
-    "href": "join/index.html",
-    "title": "Join",
-    "section": "",
-    "text": "Join us!\n\n\n\nHelp us build the core vision and sensor fusion capabilities that enable machines to perceive the world in real time. We design, implement, and optimize perception algorithms that ensure robust operation across diverse environments and conditions. We’re looking for people who thrive at the intersection of computer vision, robotics, and systems engineering—engineers who can balance algorithmic depth with practical deployment on constrained hardware. Email jobs@perceptual.ai if you’re interested!"
-  },
-  {
     "objectID": "team/index.html",
     "href": "team/index.html",
     "title": "Team",
@@ -26,5 +12,19 @@
     "title": "Platform",
     "section": "",
     "text": "Advanced perception for unpredictable environments\n\n\n\nTraditional SLAM systems struggle in messy, real-world environments. We address this by creating visual features that stay consistent under scale and orientation changes, incorporating optical flow to maintain tracking in low-texture scenes, and building semantic maps that distinguish between stable and dynamic landmarks. We are also extending ground models with LiDAR to improve shadow detection and terrain understanding, so users get maps that remain accurate and actionable in the field.\nWe focus on developer experience as much as core capability. Our platform makes perception plug-and-play. With SDKs and tooling that fuse LiDAR, IMU, GNSS, and camera data—plus GPU-accelerated processing, calibration, and analytics—developers can deliver reliable performance without reinventing the stack."
+  },
+  {
+    "objectID": "join/index.html",
+    "href": "join/index.html",
+    "title": "Join",
+    "section": "",
+    "text": "Join us!\n\n\n\nHelp us build the core vision and sensor fusion capabilities that enable machines to perceive the world in real time. We design, implement, and optimize perception algorithms that ensure robust operation across diverse environments and conditions. We’re looking for people who thrive at the intersection of computer vision, robotics, and systems engineering—engineers who can balance algorithmic depth with practical deployment on constrained hardware. Email jobs@perceptual.ai if you’re interested!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "We’re building the perception platform for automation."
   }
 ]
