@@ -2,3 +2,4 @@
 /_site/
 .pixi/
 **/*.quarto_ipynb
+v3/_site
