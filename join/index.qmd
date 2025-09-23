@@ -39,6 +39,8 @@ format:
 </div>
 ```
 
+If you’re excited to shape the next generation of intelligent systems, we’d love to hear from you. Get in touch with us at <a href="mailto:jobs@perceptual.ai">jobs@perceptual.ai</a>.
+
 ::: {.ethos-content}
 ::: {.content-section} 
 ::: {.column-page}

@@ -52,7 +52,7 @@ format:
 :::
 ::: {.grid}
 ::: {.g-col-12}
-Our mission is to accelerate the deployment of machines that can perceive, reason, and safely interact with the physical world. Instead of brittle, one-off solutions, we’re building modular AI components and a developer platform that provide the foundational perception infrastructure robotics companies need to move faster and scale reliably.
+Our mission is to accelerate the deployment of machines that perceive, reason, and safely interact with the complexities of the physical world. Building robust perception systems is one of the hardest problems in robotics—teams often spend years creating brittle, one-off solutions that are difficult to maintain and extend. We're tackling this problem by building foundational perception infrastructure to enable the next wave of robotics companies. Our modular AI components and developer platform let companies build, integrate, and control physical AI without starting from scratch.
 :::
 :::
 :::
