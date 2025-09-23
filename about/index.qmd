@@ -39,9 +39,19 @@ format:
 </div>
 ```
 
-Our team combines experience building and scaling complex systems at Stripe, Twitter, and Google X with a research foundation from MIT in probabilistic modeling, GPU inference, and neuroscience. Our goal is to make physical AI practical, reliable, and simple to integrate, so you can focus on deploying systems that work seamlessly in the real world.
-
 ::: {.ethos-content}
+::: {.content-section}
+::: {.column-page}
+::: {.section-divider}
+[About]{.section-title}
+:::
+:::
+::: {.grid}
+::: {.g-col-12}
+Our team combines experience building and scaling complex systems at Stripe, Twitter, and Google X with a research foundation from MIT in probabilistic modeling, GPU inference, and neuroscience. Our goal is to make physical AI practical, reliable, and simple to integrate, so you can focus on deploying systems that work seamlessly in the real world.
+:::
+:::
+:::
 ::: {.content-section}
 ::: {.column-page}
 ::: {.section-divider}
