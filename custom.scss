@@ -3,7 +3,6 @@
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-// Color palette inspired by Warp.dev
 $primary: #faf9f6;
 $secondary: #8b8680;
 $success: #4ade80;
@@ -13,7 +12,6 @@ $danger: #f87171;
 $light: #faf9f6;
 $dark: #121212;
 
-// Background colors
 $body-bg: #121212;
 $body-color: #faf9f6;
 $link-color: #60a5fa;
@@ -48,6 +46,72 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Smooth animations
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+// Better focus styles
+a:focus,
+button:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+// Better link styling
+a {
+  text-decoration: none;
+  position: relative;
+
+  &:not(.nav-link):not(.navbar-brand):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+}
+
+// Remove default Quarto styles that conflict
+.quarto-title-banner {
+  display: none;
+}
+
+// Page title styling
+h1.title {
+  display: none;
+}
+
+// Main content area
+main {
+  padding-top: 2rem; // Account for navbar
+}
+
+// Typography classes to replace inline styles
+.team-name {
+  color: #faf9f6;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.team-title {
+  opacity: 0.7;
+  font-family: 'Comfortaa', cursive;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+// Team member spacing - add space after each person's description
+.ethos-content .g-col-12 p {
+  margin-bottom: 3.0rem !important; // Force the spacing to apply
+
+  &:last-child {
+    margin-bottom: 0; // Remove margin from last item
+  }
+}
+
 // Top bar above navbar (like Warp)
 .top-announcement-bar {
   position: fixed;
@@ -76,78 +140,21 @@ body {
   }
 }
 
-// Navbar styling
-.navbar {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-  min-height: 60px;
-
-  // Navbar brand/title with Comfortaa - always full opacity
-  .navbar-brand {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 500;
-    opacity: 1 !important;
-  }
-
-  // Navbar logo styling
-  .navbar-logo {
-    height: 100px;
-    // opacity: 1.0;
-    // transition: opacity 0.3s ease;
-
-    // &:hover {
-    //   opacity: 1;
-    // }
-  }
-
-  // Alternative selectors for the logo image
-  .navbar-brand img,
-  .navbar-logo img,
-  img.navbar-logo {
-    height: 100px !important;
-    // opacity: 0.3 !important;
-    // transition: opacity 0.3s ease !important;
-
-    // &:hover {
-    //   opacity: 1 !important;
-    // }
-  }
-
-  .navbar-nav .nav-link {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 400;
-    padding: 0.5rem 1.5rem;
-    transition: opacity 0.2s ease;
-    font-size: 1rem;
-    letter-spacing: 0.01em;
-    opacity: 0.5;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    &:visited,
-    &:active,
-    &:focus {
-      color: inherit;
-    }
-  }
-}
-
 // Hero section
 .hero {
-  padding: 8rem 2rem;
+  padding: 8rem 0; // No horizontal padding for full width
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 4rem 2rem; // Keep padding on mobile for readability
+  }
 
   &.index {
     margin-bottom: -60px;
   }
 
   h1 {
+    white-space: normal;
     font-size: 3rem;
     font-weight: 400;
     line-height: 1.15;
@@ -208,11 +215,15 @@ body {
 
 // Ethos section - Warp-inspired minimal narrative style
 .ethos-section {
-  padding: 1rem 2rem;
+  padding: 1rem 5vw; // Responsive padding based on viewport width
   max-width: 1400px;
   margin: 0 auto;
   text-align: center;
   animation: fadeInUp 0.8s ease-out;
+
+  @media (max-width: 768px) {
+    padding: 0.5rem 1rem; // Reduced vertical padding on mobile
+  }
 
   // Animated logo container
   .animated-logo-container {
@@ -306,19 +317,32 @@ body {
     }
   }
 
-  // Inner content container for controlling text width
+  // Inner content container - let Quarto handle widths
   .ethos-content {
-    max-width: 900px; // Easily adjustable text width
-    margin: 0 auto;
-    margin-top: 6rem; // Add space between logo and content
-    padding: 0 1rem; // Small padding for mobile
+    margin: 6rem auto 0; // Add space between logo and content
     text-align: left; // Left-align the text content
+
+    @media (max-width: 768px) {
+      margin-top: 1rem; // Minimal margin on mobile
+    }
 
     .content-section {
       margin: 5rem 0;
 
+      @media (max-width: 768px) {
+        margin: 2rem 0; // Less margin on mobile
+      }
+
       &:first-child {
         margin-top: 6rem;
+      }
+
+      @media (max-width: 768px) {
+        margin: 3rem 0; // Reduce margins on mobile
+
+        &:first-child {
+          margin-top: 3rem;
+        }
       }
 
       .section-divider {
@@ -359,7 +383,7 @@ body {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 1.8;
     color: rgba(250, 249, 246, 0.5);
     margin-bottom: 1.5rem;
@@ -368,6 +392,10 @@ body {
     @media (min-width: 768px) {
       font-size: 1.25rem;
       line-height: 1.9;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 16px; // Minimum 16px to prevent iOS zoom
     }
   }
 }
@@ -478,6 +506,67 @@ body {
   }
 }
 
+// Section animations
+.section {
+  animation: fadeInUp 0.6s ease-out;
+
+  & + .section {
+    margin-top: -1px;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Enhanced card hover effects
+.card::before,
+.value-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(96, 165, 250, 0.15), transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.card:hover::before,
+.value-card:hover::before {
+  opacity: 1;
+}
+
+// Loading animation (optional)
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #60a5fa, transparent);
+  animation: loading 2s linear infinite;
+  z-index: 9999;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 // Responsive
 @media (max-width: 768px) {
   .hero {
@@ -498,6 +587,42 @@ body {
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+}
+
+// Additional responsive typography for very small screens
+@media (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+
+  .section h2 {
+    font-size: 1.75rem;
+  }
+
+  .card h3,
+  .value-card h3 {
+    font-size: 1.25rem;
+  }
+}
+
+// Print styles
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .section {
+    page-break-inside: avoid;
   }
 }
 

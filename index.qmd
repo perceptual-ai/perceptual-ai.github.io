@@ -5,7 +5,7 @@ format:
     toc: false
 ---
 
-::: {.hero .index}
+::: {.hero .index .column-page}
 # We're building the perception platform for automation.
 :::
 
@@ -46,34 +46,60 @@ format:
 </div>
 ```
 
-```{=html}
-<div class="ethos-content">
-  <div class="content-section">
-    <div class="section-divider">
-      <span class="section-title">Mission</span>
-    </div>
-    <p>Our mission is to accelerate the deployment of machines that perceive, reason, and safely interact with the complexities of the physical world. Building robust perception systems is one of the hardest problems in robotics—teams often spend years creating brittle, one-off solutions that are difficult to maintain and extend.
-      
-    We're tackling this problem by building foundational perception infrastructure to enable the next wave of robotics companies. Our modular AI components and developer platform let companies build, integrate, and control physical AI without starting from scratch.</p>
-  </div>
+::: {.ethos-content}
 
-  <div class="content-section">
-    <div class="section-divider">
-      <span class="section-title">Product</span>
-      </div>
-      <p>Our perception software provides reliable localization and mapping that works with LiDAR, cameras, radar, and inertial or odometry inputs. Our modules are GPU-accelerated, work with your existing sensors and run directly on your device with no training required.
+::: {.content-section}
 
-      The platform also provides automated calibration for precise multi-sensor alignment and dynamic masking to filter out noise and irrelevant data in real time.      
-      </p> 
-    </div>
+::: {.column-page}
+::: {.section-divider}
+[Mission]{.section-title}
+:::
+:::
 
-  <div class="content-section">
-    <div class="section-divider">
-      <span class="section-title">Platform</span>
-    </div>
-    <p>Our developer platform unifies the entire workflow, making it easy to operate, monitor, and improve your systems. It provides sensor capture, synchronization, and publishing; centralized telemetry and observability integration; and an analysis SDK for streamlined evaluation and benchmarking.</p>
-  </div>
-</div>
-```
+::: {.grid}
+::: {.g-col-12}
+Our mission is to accelerate the deployment of machines that perceive, reason, and safely interact with the complexities of the physical world. Building robust perception systems is one of the hardest problems in robotics—teams often spend years creating brittle, one-off solutions that are difficult to maintain and extend.
+
+We're tackling this problem by building foundational perception infrastructure to enable the next wave of robotics companies. Our modular AI components and developer platform let companies build, integrate, and control physical AI without starting from scratch.
+:::
+:::
+
+:::
+
+::: {.content-section}
+
+::: {.column-page}
+::: {.section-divider}
+[Product]{.section-title}
+:::
+:::
+
+::: {.grid}
+::: {.g-col-12}
+Our perception software provides reliable localization and mapping that works with LiDAR, cameras, radar, and inertial or odometry inputs. Our modules are GPU-accelerated, work with your existing sensors and run directly on your device with no training required.
+
+The platform also provides automated calibration for precise multi-sensor alignment and dynamic masking to filter out noise and irrelevant data in real time.
+:::
+:::
+
+:::
+
+::: {.content-section}
+
+::: {.column-page}
+::: {.section-divider}
+[Platform]{.section-title}
+:::
+:::
+
+::: {.grid}
+::: {.g-col-12}
+Our developer platform unifies the entire workflow, making it easy to operate, monitor, and improve your systems. It provides sensor capture, synchronization, and publishing; centralized telemetry and observability integration; and an analysis SDK for streamlined evaluation and benchmarking.
+:::
+:::
+
+:::
+
+:::
 
 :::

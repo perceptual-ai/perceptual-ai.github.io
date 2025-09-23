@@ -4,8 +4,8 @@ project:
 website:
   title: "Perceptual"
   navbar:
+    toggle-position: right
     search: false
-    # logo: assets/logo-dark.png
     background: dark
     left:
       - href: "about/index.qmd"
@@ -18,11 +18,10 @@ format:
     theme:
       - darkly
       - custom.scss
-    css: styles.css
     toc: false
     page-layout: article
     grid:
-      body-width: 1400px
+      body-width: 1200px
       margin-width: 250px
 
 
