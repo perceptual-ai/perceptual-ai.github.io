@@ -1,36 +1,28 @@
 project:
   type: website
-  output-dir: _site
-  resources:
-    - robots.txt
 
 website:
   title: "Perceptual"
   navbar:
-    brand:
-      text: "Perceptual"
-      href: index.qmd
+    toggle-position: right
+    search: false
+    background: dark
     left:
-      - text: "What"
-        href: index.qmd
-      - text: "Team"
-        href: team/index.qmd
-      - text: "Research"
-        href: research/index.qmd
-      - text: "Contact"
-        href: contact/index.qmd
-  google-analytics: "G-M255TYLNBN"
-  page-footer:
-    left: "© 2025, FrogRocket Labs, Inc."
-    right:
-      - icon: github
-        href: https://github.com/perceptual-ai
-      - icon: envelope-paper-heart-fill
-        href: mailto:hello@perceptual.ai
+      - href: "about/index.qmd"
+        text: About
+      - href: "join/index.qmd"
+        text: Join
 
 format:
   html:
     theme:
       - darkly
       - custom.scss
-    toc: true
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 1200px
+      margin-width: 250px
+
+
+
