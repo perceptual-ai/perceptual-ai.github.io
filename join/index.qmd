@@ -51,7 +51,6 @@ format:
 If you’re excited to shape the next generation of intelligent systems, we’d love to hear from you. Get in touch with us at <a href="mailto:jobs@perceptual.ai">jobs@perceptual.ai</a>.
 :::
 :::
-:::
 ::: {.content-section} 
 ::: {.column-page}
 ::: {.section-divider}
