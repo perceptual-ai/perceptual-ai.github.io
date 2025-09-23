@@ -8,12 +8,10 @@ website:
     # logo: assets/logo-dark.png
     background: dark
     left:
+      - href: "about/index.qmd"
+        text: About
       - href: "join/index.qmd"
         text: Join
-      - href: "platform/index.qmd"
-        text: Platform
-      - href: "team/index.qmd"
-        text: Team
 
 format:
   html:
