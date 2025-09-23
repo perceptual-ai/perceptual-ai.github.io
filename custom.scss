@@ -3,7 +3,6 @@
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-// Color palette inspired by Warp.dev
 $primary: #faf9f6;
 $secondary: #8b8680;
 $success: #4ade80;
@@ -13,13 +12,12 @@ $danger: #f87171;
 $light: #faf9f6;
 $dark: #121212;
 
-// Background colors
 $body-bg: #121212;
 $body-color: #faf9f6;
 $link-color: #60a5fa;
 $link-hover-color: #93bbfc;
 
-// Typography - matching Warp's clean style
+// Typography
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $headings-font-weight: 400;
 $headings-color: #faf9f6;
@@ -30,10 +28,6 @@ $navbar-dark-color: rgba(255, 255, 255, 0.85);
 $navbar-dark-hover-color: rgba(255, 255, 255, 1);
 $navbar-dark-bg: rgba(18, 18, 18, 0.95);
 $navbar-padding-y: 1rem;
-
-// Cards
-$card-bg: rgba(255, 255, 255, 0.05);
-$card-border-color: rgba(255, 255, 255, 0.1);
 
 /*-- scss:rules --*/
 
@@ -48,115 +42,105 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Top bar above navbar (like Warp)
-.top-announcement-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 40px;
-  background: #faf9f629;
-  color: #9e9c9c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10000;
-  font-size: 0.875rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
+// Smooth animations
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
 
-  a {
-    color: #9e9c9c;
+// Better focus styles
+a:focus,
+button:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+// Better link styling
+a {
+  text-decoration: none;
+  position: relative;
+
+  &:not(.nav-link):not(.navbar-brand):hover {
     text-decoration: underline;
-    margin-left: 0.5rem;
-
-    &:hover {
-      text-decoration-thickness: 2px;
-    }
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
   }
 }
 
-// Navbar styling
-.navbar {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-  min-height: 60px;
+// Remove default Quarto styles that conflict
+.quarto-title-banner {
+  display: none;
+}
 
-  // Navbar brand/title with Comfortaa - always full opacity
-  .navbar-brand {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 500;
-    opacity: 1 !important;
-  }
+// Page title styling
+h1.title {
+  display: none;
+}
 
-  // Navbar logo styling
-  .navbar-logo {
-    height: 100px;
-    // opacity: 1.0;
-    // transition: opacity 0.3s ease;
+// Main content area
+main {
+  padding-top: 2rem; // Account for navbar
+}
 
-    // &:hover {
-    //   opacity: 1;
-    // }
-  }
+// Typography classes
+.team-name {
+  color: #faf9f6;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 
-  // Alternative selectors for the logo image
-  .navbar-brand img,
-  .navbar-logo img,
-  img.navbar-logo {
-    height: 100px !important;
-    // opacity: 0.3 !important;
-    // transition: opacity 0.3s ease !important;
+.team-title {
+  opacity: 0.7;
+  font-family: 'Comfortaa', cursive;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 
-    // &:hover {
-    //   opacity: 1 !important;
-    // }
-  }
+// Team member spacing
+.ethos-content .g-col-12 p {
+  margin-bottom: 0rem !important;
 
-  .navbar-nav .nav-link {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 400;
-    padding: 0.5rem 1.5rem;
-    transition: opacity 0.2s ease;
-    font-size: 1rem;
-    letter-spacing: 0.01em;
-    opacity: 0.5;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    &:visited,
-    &:active,
-    &:focus {
-      color: inherit;
-    }
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 // Hero section
 .hero {
-  padding: 8rem 2rem;
+  padding: 2rem 0 4rem 0; // Less top padding, more bottom for space before logo
   text-align: center;
 
+  // Override Quarto's column-page constraints on mobile
+  &.column-page {
+    @media (max-width: 768px) {
+      max-width: 100% !important;
+      padding: 1rem 1rem 3rem 1rem; // Minimal top padding, keep bottom space
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1rem 3rem 1rem; // Minimal top padding, keep bottom space
+  }
+
   &.index {
-    margin-bottom: -60px;
+    margin-bottom: -50px;
+    margin-top: -60px
   }
 
   h1 {
+    white-space: normal;
     font-size: 3rem;
     font-weight: 400;
     line-height: 1.15;
     margin-bottom: 2rem;
     color: #faf9f6;
     letter-spacing: -0.025em;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 
     @media (min-width: 768px) {
       font-size: 4rem;
@@ -172,47 +156,24 @@ body {
       font-size: 6rem;
       line-height: 1.1;
     }
-  }
 
-  .lead {
-    font-size: 1.25rem;
-    color: $secondary;
-    max-width: 900px;
-    margin: 0 auto;
-    letter-spacing: 0.005em;
-  }
-}
-
-// Section styling
-.section {
-  padding: 5rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-
-  h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 3rem;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #faf9f6;
-
-    @media (min-width: 768px) {
-      font-size: 3rem;
-    }
-
-    @media (min-width: 1200px) {
-      font-size: 4rem;
+    @media (max-width: 576px) {
+      font-size: 2rem !important;
     }
   }
 }
 
-// Ethos section - Warp-inspired minimal narrative style
+// Ethos section
 .ethos-section {
-  padding: 1rem 2rem;
+  padding: 1rem 5vw;
   max-width: 1400px;
   margin: 0 auto;
   text-align: center;
   animation: fadeInUp 0.8s ease-out;
+
+  @media (max-width: 768px) {
+    padding: 0.5rem 1rem;
+  }
 
   // Animated logo container
   .animated-logo-container {
@@ -292,33 +253,29 @@ body {
       }
     }
   }
-    
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 3rem;
-    color: #faf9f6;
-    letter-spacing: -0.02em;
-    opacity: 0.9;
 
-    @media (min-width: 768px) {
-      font-size: 3.5rem;
-    }
-  }
-
-  // Inner content container for controlling text width
+  // Inner content container
   .ethos-content {
-    max-width: 900px; // Easily adjustable text width
-    margin: 0 auto;
-    margin-top: 6rem; // Add space between logo and content
-    padding: 0 1rem; // Small padding for mobile
-    text-align: left; // Left-align the text content
+    margin: 6rem auto 0;
+    text-align: left;
+
+    @media (max-width: 768px) {
+      margin-top: 1rem;
+    }
 
     .content-section {
       margin: 5rem 0;
 
+      @media (max-width: 768px) {
+        margin: 2rem 0;
+      }
+
       &:first-child {
-        margin-top: 6rem;
+        margin-top: 0rem;
+
+        @media (max-width: 768px) {
+          margin-top: 3rem;
+        }
       }
 
       .section-divider {
@@ -326,7 +283,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
         &::before {
           content: '';
@@ -359,7 +316,7 @@ body {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 1.8;
     color: rgba(250, 249, 246, 0.5);
     margin-bottom: 1.5rem;
@@ -369,144 +326,11 @@ body {
       font-size: 1.25rem;
       line-height: 1.9;
     }
-  }
-}
 
-// Grid layouts - simplified and less constraining
-.grid-container {
-  display: grid;
-  gap: 2rem;
-  padding: 0 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
-
-  &.grid-2 {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-
-  &.grid-3 {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
-}
-
-// Cards
-.card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  padding: 2rem;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #faf9f6;
-  }
-
-  p {
-    color: #8b8680;
-    line-height: 1.6;
-  }
-}
-
-// Team member cards
-.team-member {
-  text-align: center;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 16px;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.05);
-    transform: translateY(-4px);
-  }
-
-  .avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    background: linear-gradient(135deg, #60a5fa 0%, #4ade80 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    color: white;
-    font-weight: bold;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .role {
-    color: #8b8680;
-    font-size: 1rem;
-  }
-}
-
-// Value cards
-.value-card {
-  padding: 2.5rem;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  transition: all 0.3s ease;
-
-  &:hover {
-    transform: translateY(-4px);
-    border-color: rgba(96, 165, 250, 0.3);
-  }
-
-  .icon {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    display: block;
-  }
-
-  h3 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-  }
-}
-
-// Responsive
-@media (max-width: 768px) {
-  .hero {
-    padding: 4rem 0;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .lead {
-      font-size: 1.2rem;
+    @media (max-width: 768px) {
+      font-size: 16px; // Minimum 16px to prevent iOS zoom
     }
   }
-
-  .section {
-    padding: 3rem 0;
-  }
-
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-}
-
-// Utility classes removed gradient
-
-.blur-bg {
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  background: rgba(18, 18, 18, 0.8);
 }
 
 // Smooth scrolling
@@ -525,7 +349,17 @@ html {
   color: #faf9f6;
 }
 
-// Large background circles removed - now using smaller circles behind logo only
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 // Logo pulse animation synced with circles
 @keyframes logoPulse {
@@ -543,7 +377,7 @@ html {
   }
 }
 
-// Logo circle animations - smaller orbits around the logo
+// Logo circle animations
 @keyframes logoOrbit1 {
   from {
     transform: translate(-50%, -50%) rotate(0deg) translateX(56px) rotate(0deg);
