@@ -143,6 +143,10 @@ body {
   padding: 8rem 2rem;
   text-align: center;
 
+  &.index {
+    margin-bottom: -60px;
+  }
+
   h1 {
     font-size: 3rem;
     font-weight: 400;
@@ -231,8 +235,8 @@ body {
 
       .circle {
         position: absolute;
-        width: 220px;
-        height: 220px;
+        width: 154px;
+        height: 154px;
         border-radius: 50%;
         filter: blur(40px);
         mix-blend-mode: screen;
@@ -520,27 +524,27 @@ html {
 // Logo circle animations - smaller orbits around the logo
 @keyframes logoOrbit1 {
   from {
-    transform: translate(-50%, -50%) rotate(0deg) translateX(80px) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(56px) rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg) translateX(80px) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg) translateX(56px) rotate(-360deg);
   }
 }
 
 @keyframes logoOrbit2 {
   from {
-    transform: translate(-50%, -50%) rotate(120deg) translateX(100px) rotate(-120deg);
+    transform: translate(-50%, -50%) rotate(120deg) translateX(70px) rotate(-120deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(480deg) translateX(100px) rotate(-480deg);
+    transform: translate(-50%, -50%) rotate(480deg) translateX(70px) rotate(-480deg);
   }
 }
 
 @keyframes logoOrbit3 {
   from {
-    transform: translate(-50%, -50%) rotate(240deg) translateX(90px) rotate(-240deg);
+    transform: translate(-50%, -50%) rotate(240deg) translateX(63px) rotate(-240deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(600deg) translateX(90px) rotate(-600deg);
+    transform: translate(-50%, -50%) rotate(600deg) translateX(63px) rotate(-600deg);
   }
 }
