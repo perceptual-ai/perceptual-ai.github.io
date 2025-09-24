@@ -1,7 +1,45 @@
 /*-- scss:defaults --*/
 
-// Import Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+// Local font declarations
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('fonts/comfortaa/Comfortaa-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('fonts/comfortaa/Comfortaa-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('fonts/comfortaa/Comfortaa-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('fonts/comfortaa/Comfortaa-600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('fonts/comfortaa/Comfortaa-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 $primary: #faf9f6;
 $secondary: #8b8680;
@@ -14,7 +52,7 @@ $dark: #121212;
 
 $body-bg: #121212;
 $body-color: #faf9f6;
-$link-color: #60a5fa;
+$link-color: #9333EA4D;
 $link-hover-color: #93bbfc;
 
 // Typography
@@ -64,6 +102,12 @@ a {
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
   }
+}
+
+// Navbar brand (title) styling
+.navbar-brand {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
 }
 
 // Remove default Quarto styles that conflict
