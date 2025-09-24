@@ -62,7 +62,6 @@ We make autonomous systems more reliable and production-ready, delivering measur
 We help autonomous systems achieve measurable leaps in perception performance. Our work has produced 3x improvements in mapping stability while maintaining processing speed, and delivered 50% better performance compared to industry baselines. We’ve demonstrated GPS-resilient operation for over 10 km and 3.5 hours without satellite signals, maintaining sub-1% trajectory error. Our innovations in visual SLAM enable real-time vehicle masking at 500 Hz with 2 ms GPU processing, eliminating common tracking errors from shadows and moving parts.
 :::
 :::
-:::
 ::: {.content-section}
 ::: {.section-divider .column-page}
 [How We Work]{.section-title}
