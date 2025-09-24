@@ -48,7 +48,7 @@ format:
 :::
 ::: {.grid}
 ::: {.g-col-12}
-If you’re excited to shape the next generation of intelligent systems, we’d love to hear from you. Get in touch with us at <a href="mailto:jobs@perceptual.ai">jobs@perceptual.ai</a>.
+If you’re excited to shape the next generation of intelligent systems, we’d love to hear from you. At Perceptual, you’ll work on open problems in SLAM, sensor fusion, and GPU acceleration — and see your solutions validated on real equipment in demanding environments worldwide. You’ll collaborate with a team that combines MIT research depth with large-scale engineering experience from Stripe, Twitter, and Google X. Get in touch at <a href="mailto:jobs@perceptual.ai">jobs@perceptual.ai</a>.
 :::
 :::
 :::

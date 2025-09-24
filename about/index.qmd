@@ -48,46 +48,41 @@ format:
 :::
 ::: {.grid}
 ::: {.g-col-12}
-Our team combines experience building and scaling complex systems at Stripe, Twitter, and Google X with a research foundation from MIT in probabilistic modeling, GPU inference, and neuroscience. Our goal is to make physical AI practical, reliable, and simple to integrate, so you can focus on deploying systems that work seamlessly in the real world.
+We make autonomous systems more reliable and production-ready, delivering measurable gains like faster, more stable mapping and GPS-free navigation over extended routes. We meet teams where they are — embedding directly in codebases or providing clean, production-ready services. Deployment is seamless, from pip install to Conda packages to gRPC services, making improvements easy to adopt and scale. To learn more, reach out to engage@perception.ai
 :::
 :::
 :::
 ::: {.content-section}
+<<<<<<< Updated upstream
 ::: {.column-page}
 ::: {.section-divider}
 [Founding Team]{.section-title}
+=======
+::: {.section-divider .column-page}
+[What We Deliver]{.section-title}
+>>>>>>> Stashed changes
 :::
 :::
 ::: {.grid}
 ::: {.g-col-12}
-[David Petrovics]{.team-name} [| CEO]{.team-title}\
-David led Stripe's Developer Platform organization for nearly a decade, overseeing the API, SDKs, developer tools, and internal product infrastructure. He built Stripe's v2 API and launched numerous developer products at global scale. BSE mechanical & aerospace engineering, Princeton.
-<br><br>
-[Aaron Steele]{.team-name} [| President]{.team-title}\
-Aaron led data, machine learning, and machine learning infrastructure teams at Stripe that developed Rainier and built the real-time production AI systems behind Radar. He also co-founded WRI's Data Lab as CTO, leading the research engineering teams that launched Global Forest Watch. BA computer science, Berkeley.
-<br><br>
-[Sam Ritchie]{.team-name} [| CTO]{.team-title}\
-Sam has built AI developer tools and large-scale stream processing systems at Twitter, Stripe, and Google X. He created Twitter's streaming analytics platform, designed ML infrastructure at Stripe, led research tooling at X, and built the Emmy computational physics library. BSE Mechanical & Aerospace engineering, Princeton.
-<br><br>
-[Andrew Bolton]{.team-name} [| Research Scientist]{.team-title}\
-Andrew's research bridges engineering, probabilistic programming and biological computation. He has identified novel visual pathways, uncovered computational principles of zebrafish vision, and applied probabilistic programming techniques to describe visuomotor algorithms. Recently co-invented the SMCNN framework for probabilistic neural computation. PhD Brain and Cognitive Sciences (MIT).
-<br><br>
-[Matin Ghavami]{.team-name} [| Research Scientist]{.team-title}\
-Matin bridges programming languages and mathematics of probability. At the MIT Probabilistic Computing Project, he co-developed probabilistic programming systems for 3D scene perception and contributed to inference strategies and languages for probabilistic inference. BA Mathematics and BS EECS, Berkeley; Master Mathematics, Cambridge; PhD student, MIT.
-<br><br>
-[McCoy Becker]{.team-name} [| Research Scientist]{.team-title}\
-McCoy is the main designer of the probabilistic programming system GenJAX, which in addition to being the primary modeling language of the MIT Probabilistic Computing Project, has been used to extend PPL use for programmable variational inference. McCoy has extensive experience working in industry settings (Charles River Analytics, Beacon Biosignals, Google Research) on machine learning applications using deep learning. PhD student, MIT.
+We help autonomous systems achieve measurable leaps in perception performance. Our work has produced 3x improvements in mapping stability while maintaining processing speed, and delivered 50% better performance compared to industry baselines. We’ve demonstrated GPS-resilient operation for over 10 km and 3.5 hours without satellite signals, maintaining sub-1% trajectory error. Our innovations in visual SLAM enable real-time vehicle masking at 500 Hz with 2 ms GPU processing, eliminating common tracking errors from shadows and moving parts.
 :::
 :::
 :::
 ::: {.content-section}
+<<<<<<< Updated upstream
 ::: {.column-page}
 ::: {.section-divider}
 [Scientific Collaborators]{.section-title}
+=======
+::: {.section-divider .column-page}
+[How We Work]{.section-title}
+>>>>>>> Stashed changes
 :::
 :::
 ::: {.grid}
 ::: {.g-col-12}
+<<<<<<< Updated upstream
 [Josh Tenenbaum]{.team-name} [| Professor, MIT]{.team-title}\
 Josh is a Professor of Computational Cognitive Science at MIT, Director of Science at the MIT Quest for Intelligence, and a Principal Investigator at CSAIL. His research seeks to reverse-engineer human intelligence by integrating cognitive science, neuroscience, and computer science, with a focus on how humans learn and reason from limited data. A MacArthur Fellow, he earned his PhD from MIT and co-leads the Center for Brains, Minds and Machines.
 :::
@@ -103,6 +98,9 @@ Josh is a Professor of Computational Cognitive Science at MIT, Director of Scien
 ::: {.g-col-12}
 [Sam Gershman]{.team-name} [| Professor, Harvard]{.team-title}\
 Sam is a Professor in the Department of Psychology and Center for Brain Science at Harvard. He serves as associate faculty at the Kempner Institute for the Study of Natural and Artificial Intelligence. His research focuses on computational cognitive neuroscience, aiming to understand how structured knowledge about the environment is acquired and utilized for adaptive behavior. He completed his Ph.D. in Psychology and Neuroscience at Princeton University.
+=======
+Beyond core SLAM breakthroughs, we integrate across full sensor stacks — LiDAR, cameras, IMU, and GPS — with automated calibration and real-time synchronization. Solutions are validated at scale, tested against thousands of hours of operational data and industry-standard benchmarks, and hardened across demanding environments, from Moroccan mines to Wyoming quarries. We are extending these capabilities to multi-machine coordination, enabling persistent site-wide mapping and long-duration operations.
+>>>>>>> Stashed changes
 :::
 :::
 :::

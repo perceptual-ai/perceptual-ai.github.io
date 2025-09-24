@@ -12,7 +12,8 @@ website:
         text: About
       - href: "join/index.qmd"
         text: Join
-
+      - href: "team/index.qmd"
+        text: Team
 format:
   html:
     theme:
