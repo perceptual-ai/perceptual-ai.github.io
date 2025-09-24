@@ -53,14 +53,8 @@ We make autonomous systems more reliable and production-ready, delivering measur
 :::
 :::
 ::: {.content-section}
-<<<<<<< Updated upstream
-::: {.column-page}
-::: {.section-divider}
-[Founding Team]{.section-title}
-=======
 ::: {.section-divider .column-page}
 [What We Deliver]{.section-title}
->>>>>>> Stashed changes
 :::
 :::
 ::: {.grid}
@@ -70,37 +64,13 @@ We help autonomous systems achieve measurable leaps in perception performance. O
 :::
 :::
 ::: {.content-section}
-<<<<<<< Updated upstream
-::: {.column-page}
-::: {.section-divider}
-[Scientific Collaborators]{.section-title}
-=======
 ::: {.section-divider .column-page}
 [How We Work]{.section-title}
->>>>>>> Stashed changes
 :::
 :::
 ::: {.grid}
 ::: {.g-col-12}
-<<<<<<< Updated upstream
-[Josh Tenenbaum]{.team-name} [| Professor, MIT]{.team-title}\
-Josh is a Professor of Computational Cognitive Science at MIT, Director of Science at the MIT Quest for Intelligence, and a Principal Investigator at CSAIL. His research seeks to reverse-engineer human intelligence by integrating cognitive science, neuroscience, and computer science, with a focus on how humans learn and reason from limited data. A MacArthur Fellow, he earned his PhD from MIT and co-leads the Center for Brains, Minds and Machines.
-:::
-:::
-:::
-::: {.content-section}
-::: {.column-page}
-::: {.section-divider}
-[Advisors]{.section-title}
-:::
-:::
-::: {.grid}
-::: {.g-col-12}
-[Sam Gershman]{.team-name} [| Professor, Harvard]{.team-title}\
-Sam is a Professor in the Department of Psychology and Center for Brain Science at Harvard. He serves as associate faculty at the Kempner Institute for the Study of Natural and Artificial Intelligence. His research focuses on computational cognitive neuroscience, aiming to understand how structured knowledge about the environment is acquired and utilized for adaptive behavior. He completed his Ph.D. in Psychology and Neuroscience at Princeton University.
-=======
 Beyond core SLAM breakthroughs, we integrate across full sensor stacks — LiDAR, cameras, IMU, and GPS — with automated calibration and real-time synchronization. Solutions are validated at scale, tested against thousands of hours of operational data and industry-standard benchmarks, and hardened across demanding environments, from Moroccan mines to Wyoming quarries. We are extending these capabilities to multi-machine coordination, enabling persistent site-wide mapping and long-duration operations.
->>>>>>> Stashed changes
 :::
 :::
 :::
