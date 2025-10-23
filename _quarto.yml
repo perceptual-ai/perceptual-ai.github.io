@@ -12,6 +12,8 @@ website:
         text: About
       - href: "join/index.qmd"
         text: Join
+  page-footer:
+    center: "© FrogRocket Labs, Inc"
 
 format:
   html:
